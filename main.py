@@ -7,7 +7,7 @@ from datetime import datetime
 class NovelWriterPro:
     def __init__(self, root):
         self.root = root
-        self.root.title("NovelWriter Pro - 小説執筆ソフト")
+        self.root.title("NovelWritingSoftware - 小説執筆ソフト")
         self.root.geometry("1400x900")
         
         # データ構造
@@ -888,4 +888,5 @@ class NovelWriterPro:
 if __name__ == "__main__":
     root = tk.Tk()
     app = NovelWriterPro(root)
+
     root.mainloop()
